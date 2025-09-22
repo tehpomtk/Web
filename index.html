@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИП ТехПомощь</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <img src="logo.png" alt="Логотип" class="logo">
+            <div>
+                <h1 data-lang="title">ИП ТехПомощь</h1>
+                <p data-lang="subtitle">Монтаж и обслуживание систем безопасности и автоматизации</p>
+            </div>
+            <div class="lang-switcher">
+                <button onclick="setLanguage('ru')">RU</button>
+                <button onclick="setLanguage('en')">EN</button>
+                <button onclick="setLanguage('kz')">KZ</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="about container">
+        <h2 data-lang="about_title">О компании</h2>
+        <p data-lang="about_text">Мы занимаемся проектированием, монтажом и обслуживанием систем видеонаблюдения, контроля доступа, пожарной сигнализации и автоматизации зданий. Работаем по всему Казахстану.</p>
+    </section>
+
+    <section class="services container">
+        <h2 data-lang="services_title">Наши услуги</h2>
+        <ul>
+            <li data-lang="service1">Видеонаблюдение (IP, Hikvision, Dahua)</li>
+            <li data-lang="service2">СКУД (домофоны, контроль доступа)</li>
+            <li data-lang="service3">Пожарная сигнализация и автоматика (С2000, Болид и др.)</li>
+            <li data-lang="service4">Слаботочные системы (сети, Wi-Fi, серверы, роутеры)</li>
+            <li data-lang="service5">Умный дом (автоматизация света, отопления, насосов)</li>
+            <li data-lang="service6">Обслуживание объектов (контракты, выезды)</li>
+        </ul>
+    </section>
+
+    <section class="advantages container">
+        <h2 data-lang="advantages_title">Преимущества</h2>
+        <ul>
+            <li data-lang="adv1">Оперативность и надёжность</li>
+            <li data-lang="adv2">Современные технологии</li>
+            <li data-lang="adv3">Гарантия качества</li>
+            <li data-lang="adv4">Индивидуальный подход</li>
+        </ul>
+    </section>
+
+    <section class="contacts container">
+        <h2 data-lang="contacts_title">Контакты</h2>
+        <p><span data-lang="phone">Телефон</span>: <a href="tel:+77074779338">+7 707 477 9338</a></p>
+        <p>Email: <a href="mailto:hostkz.net@gmail.com">hostkz.net@gmail.com</a></p>
+        <div class="buttons">
+            <a href="https://wa.me/77074779338" class="btn">WhatsApp</a>
+            <a href="https://t.me/+77074779338" class="btn">Telegram</a>
+            <a href="tel:+77074779338" class="btn" data-lang="call">Позвонить</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ИП ТехПомощь | <a href="https://tehpom.su">tehpom.su</a></p>
+    </footer>
+</body>
+</html>
